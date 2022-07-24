@@ -1,16 +1,19 @@
 .footer__copyright {
-  margin-top: 16px;
+  margin-top: 48px;
   margin-bottom: 24px;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   color: #FFFFFF;
-  padding-left: 16px;
+  width: 186px;
 }
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
     margin: 0;
+    padding-left: 69px;
+    grid-column-start: 6;
+    grid-column-end: 7;
   }
 }

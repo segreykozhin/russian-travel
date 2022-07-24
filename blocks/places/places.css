@@ -1,20 +1,21 @@
-
-.places{
+.places {
   padding: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .places{
+  .places {
     padding: 0 24px 0;
   }
 }
+
 @media screen and (min-width: 1024px) {
-  .places{
+  .places {
     padding: 0 48px 0;
   }
 }
+
 @media screen and (min-width: 1280px) {
-  .places{
+  .places {
     padding: 0 148px 0;
   }
 }

@@ -1,4 +1,4 @@
-.intro__list{
+.intro__list {
   list-style-type: none;
   color: white;
   padding: 0;
@@ -9,7 +9,7 @@
   margin-bottom: 64px;
 }
 
-.intro__span{
+.intro__span {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 12px;

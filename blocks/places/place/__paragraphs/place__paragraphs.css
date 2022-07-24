@@ -1,4 +1,4 @@
-.place__paragraphs{
+.place__paragraphs {
   padding-left: 16px;
   font-family: 'Inter';
   font-weight: 400;
@@ -6,8 +6,8 @@
   line-height: 163%;
 }
 
-@media screen and (min-width: 768px){
-  .place__paragraphs{
+@media screen and (min-width: 768px) {
+  .place__paragraphs {
     padding-left: 28px;
   }
 }

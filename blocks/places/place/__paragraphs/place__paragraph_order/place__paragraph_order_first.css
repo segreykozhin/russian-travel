@@ -1,4 +1,4 @@
-.place__paragraphs_order_first{
+.place__paragraphs_order_first {
   padding-left: 0;
   color: white;
   white-space: pre-line;
@@ -6,15 +6,14 @@
   margin-bottom: 25px;
 }
 
-@media screen and (min-width: 557px){
-  .place__paragraphs_order_first{
+@media screen and (min-width: 557px) {
+  .place__paragraphs_order_first {
      white-space: normal;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .place__paragraphs_order_first{
+  .place__paragraphs_order_first {
     margin-top: 0px;
-
   }
 }

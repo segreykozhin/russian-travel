@@ -1,46 +1,5 @@
-.cover{
-  min-height:200px;
-  margin-top: 66px;
-  background-image: url(/images/__background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center; */
-  box-sizing: border-box;
+.cover {
+  color: white;
 }
 
-.cover::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: #2A2C2F;
-  opacity: 0.3;
 
-}
-
-@media screen and (min-width: 768px){
-  .cover{
-    background-size: contain;
-    min-height: 480px;
-    background-position: center;
-
-  }
-}
-@media screen and (min-width: 1024px){
-  .cover{
-    background-size: contain;
-    min-height: 640px;
-    margin: 92px 0 0;
-    background-position: center;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .cover{
-    min-height: 740px;
-    margin-top: 92px;
-    margin: 92px 48px 0;
-    background-size: contain;
-  }
-}

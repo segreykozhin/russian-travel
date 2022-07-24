@@ -1,29 +1,31 @@
-.footer__link{
+.footer__link {
 margin-bottom: 32px;
 font-family: 'Inter';
 font-weight: 400;
 font-size: 24px;
 line-height: 24px;
 color: #FFFFFF;
+text-decoration: none;
 }
-.footer__link:hover{
+
+.footer__link:hover {
   background-color: #2A2C2F;
   opacity: 0.3;
 }
 
 @media screen and (min-width: 768px) {
-  .footer__link{
+  .footer__link {
     margin-bottom: 24px;
     font-size: 16px;
     line-height: 18px;
     padding-left: 18px;
   }
-  .footer__link:first-of-type{
+  .footer__link:first-of-type {
     padding-left: 0;
   }
 }
-@media screen and (min-width: 1024px){
-  .footer__link{
+@media screen and (min-width: 1024px) {
+  .footer__link {
     margin-bottom: 48px;
   }
 }

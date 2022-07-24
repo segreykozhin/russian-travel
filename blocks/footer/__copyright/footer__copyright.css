@@ -1,4 +1,4 @@
-.footer__copyright{
+.footer__copyright {
   margin-top: 16px;
   margin-bottom: 24px;
   font-family: 'Inter';
@@ -7,15 +7,10 @@
   line-height: 14px;
   color: #FFFFFF;
   padding-left: 16px;
-
 }
 
 @media screen and (min-width: 768px) {
-  .footer__copyright{
-    position: absolute;
+  .footer__copyright {
     margin: 0;
-    bottom: 24px;
-    right: 24px;
   }
-
 }

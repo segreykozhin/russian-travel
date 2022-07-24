@@ -1,26 +1,27 @@
-.header__link{
+.header__link {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   color: #FFFFFF;
   display: flex;
-  align-items:flex-end;
+  align-items: flex-end;
   /* flex: 1 0 auto; */
   justify-content: end;
   padding: 0;
   text-decoration: none;
 }
 
-.header__link:hover{
+.header__link:hover {
   background-color: #2A2C2F;
   opacity: 0.3;
 }
 
-.header__link:last-of-type{
-  padding-left:18px;
+.header__link:last-of-type {
+  padding-left: 18px;
 
 }
-.header__link:first-of-type{
+
+.header__link:first-of-type {
   text-decoration: underline;
 }

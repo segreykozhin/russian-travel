@@ -2,13 +2,12 @@
   margin: 0;
   padding-left: 0;
   color: white;
-  white-space: pre-line;
   margin-bottom: 50px;
 }
 
 @media screen and (min-width: 557px) {
   .place__paragraphs_order_second {
-     white-space: normal;
+    white-space: normal;
   }
 }
 

@@ -1,14 +1,13 @@
 .place__paragraphs_order_first {
   padding-left: 0;
   color: white;
-  white-space: pre-line;
   margin-top: 32px;
   margin-bottom: 25px;
 }
 
 @media screen and (min-width: 557px) {
   .place__paragraphs_order_first {
-     white-space: normal;
+    white-space: normal;
   }
 }
 

@@ -12,8 +12,9 @@
 @media screen and (min-width: 768px) {
   .footer__copyright {
     margin: 0;
-    padding-left: 69px;
-    grid-column-start: 6;
-    grid-column-end: 7;
+    margin-left: auto;
+    line-height: 16px;
+    justify-self: stretch;
+    justify-self: end;
   }
 }

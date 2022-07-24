@@ -4,15 +4,13 @@
   padding-left: 16px;
   color: white;
   align-items: center;
-  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .footer__list {
     display: grid;
-    grid-template-columns: repeat(5, 1fr) auto;
+    grid-template-columns: repeat(5, 1fr) 5fr;
+    grid-template-rows: 1;
     padding-left: 0px;
-    width: 465px;
-    margin-right: 0;
   }
 }

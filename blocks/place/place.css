@@ -4,20 +4,17 @@
   grid-template-rows: auto;
 }
 
-
 @media screen and (max-width: 557px) {
   .place {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 
 @media screen and (min-width: 768px) {
   .place {
-    margin-bottom: 73px;
+    margin-bottom: 90px;
   }
 }
-
 
 @media screen and (min-width: 1280px) {
   .place {

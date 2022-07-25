@@ -1,27 +1,28 @@
 .header__link {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   color: #FFFFFF;
-  display: flex;
-  align-items: flex-end;
-  /* flex: 1 0 auto; */
-  justify-content: end;
   padding: 0;
   text-decoration: none;
+  padding-right: 16px;
+  align-items: center;
+
 }
 
 .header__link:hover {
-  background-color: #2A2C2F;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .header__link:last-of-type {
-  padding-left: 18px;
-
+  padding-right: 0;
 }
 
-.header__link:first-of-type {
-  text-decoration: underline;
+@media screen and (min-width: 768px) {
+  .header__link {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+  }
 }

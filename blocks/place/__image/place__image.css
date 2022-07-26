@@ -1,7 +1,14 @@
 .place__image {
-  max-width: 340px;
-  max-height: 340px;
+  max-width: 320px;
+  max-height: 320px;
   margin-bottom: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

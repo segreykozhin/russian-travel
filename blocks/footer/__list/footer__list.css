@@ -8,9 +8,9 @@
 
 @media screen and (min-width: 768px) {
   .footer__list {
-    display: grid;
+    display: flex;
     align-items: end;
-    grid-template-columns: repeat(5, 1fr) 5fr;
+    grid-template-columns: repeat(5,1fr) 5fr;
     padding-left: 0px;
   }
 }

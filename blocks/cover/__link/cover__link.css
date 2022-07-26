@@ -56,5 +56,6 @@
   .cover__link {
     margin: 0 auto;
     max-width: 1184px;
+    min-height: 740px;
   }
 }

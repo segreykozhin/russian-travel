@@ -8,3 +8,10 @@
   font-size: 12px;
   line-height: 12px;
   }
+
+  @media screen and (min-width: 1024) {
+    .place__website-caption {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }

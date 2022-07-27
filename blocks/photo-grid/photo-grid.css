@@ -14,15 +14,16 @@
 
 @media screen and (min-width: 768px) {
   .photo-grid {
-    margin-bottom: 50px;
+    margin-bottom: 43px;
     padding: 0 24px 0;
+    gap: 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .photo-grid {
     padding: 0 48px 0;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
     grid-template-columns: repeat(3, 1fr);
   }
 }

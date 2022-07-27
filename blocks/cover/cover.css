@@ -9,6 +9,12 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .cover {
+    padding-top: 60px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .cover {
     padding-top: 70px;

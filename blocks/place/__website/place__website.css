@@ -7,16 +7,18 @@
   .place__website {
     margin-bottom: 48px;
     align-self: end;
-    padding-left: 8px;
-  }
-
-  .place__website:not(first-of-type){
-    padding-left: 20px;
+    padding-left: 30px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__website {
-    padding-left: 7px;
+    padding-left: 133px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__website {
+    padding-left: 160px;
   }
 }

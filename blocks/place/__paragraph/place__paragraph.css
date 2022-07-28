@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
-    padding-left: 10px;
+    padding-left: 30px;
     max-width: 360px;
     margin-top: 23px;
   }
@@ -32,6 +32,7 @@
     margin-top: 0;
   }
 }
+
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {

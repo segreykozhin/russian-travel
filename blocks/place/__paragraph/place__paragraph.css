@@ -17,14 +17,13 @@
   }
 
   .place__paragraph:first-of-type {
-    margin-top: 30;
+    margin-top: 30px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
     padding-left: 7px;
-    padding-right: 0;
     max-width: 360px;
     margin-top: 23px;
   }
@@ -37,7 +36,6 @@
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 163%;
     padding-left: 8px;
     max-width: 456px;
   }

@@ -7,6 +7,7 @@
   .place__website {
     margin-bottom: 48px;
     align-self: end;
+    padding-left: 6px;
   }
 }
 

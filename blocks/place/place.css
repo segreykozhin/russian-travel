@@ -15,8 +15,12 @@
     margin-bottom: 17px;
   }
 
-  .place:last-of-type {
-    margin-bottom: 0px;
+  .place:not(first-of-type){
+    margin-bottom: 22px;
+  }
+
+  .place:nth-of-type(4n) {
+    margin-bottom: 15px;
   }
 }
 

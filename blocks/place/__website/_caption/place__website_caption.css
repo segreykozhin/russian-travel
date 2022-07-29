@@ -1,4 +1,4 @@
-.place__website-caption {
+.place__website_caption {
   margin: 0;
   color: #AAAAAA;
   margin-bottom: 13px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .place__website-caption {
+  .place__website_caption {
     font-size: 12px;
     line-height: 0;
   }

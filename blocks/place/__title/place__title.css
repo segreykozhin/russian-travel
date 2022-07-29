@@ -11,18 +11,11 @@
 }
 
 @media screen and (min-width: 320px) {
-  .place__title:nth-of-type(2n) {
-    margin-top: 20px;
-  }
-
-  .place__title:nth-of-type(4n) {
-    padding-top: 20px;
-  }
-
-  .place__title:first-of-type {
+   .place__title:first-of-type {
     margin-top: 45px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .place__title {
     margin-top: 45px;
@@ -35,14 +28,6 @@
 
   .place__title:first-of-type {
     margin-top: 45px;
-  }
-
-  .place:nth-of-type(3n) {
-    margin-top: 35px;
-  }
-
-  .place:nth-of-type(4n) {
-    margin-top: 32px;
   }
 }
 

@@ -1,4 +1,3 @@
-/* Здравствуйте, горизонтальный скролл и ошибки в коде убрал. Расхождения на 768px проверил я и наставник, у нас их нет. */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
@@ -35,4 +34,5 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/intro/__span/intro__span.css);
 @import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);

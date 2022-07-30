@@ -13,7 +13,7 @@
   .place__paragraph {
     margin-right: 0;
     padding: 0 16px;
-    max-width: 283.5px;
+
   }
 
   .place__paragraph:first-of-type {
@@ -24,8 +24,7 @@
 @media screen and (min-width: 768px) {
   .place__paragraph {
     padding-left: 30px;
-    max-width: 360px;
-    margin-top: 23px;
+    margin-top: 25px;
   }
 
   .place__paragraph:first-of-type {
@@ -38,7 +37,6 @@
   .place__paragraph {
     font-size: 18px;
     padding-left: 130px;
-    max-width: 456px;
   }
 }
 
